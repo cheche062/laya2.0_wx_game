@@ -37,6 +37,7 @@ export default class GameControl extends Laya.Script {
         let box = Laya.Pool.getItemByCreateFun("dropBox", this.dropBox.create, this.dropBox);
         box.pos(Math.random() * (Laya.stage.width - 100), -100);
         this._gameBox.addChild(box);
+        console.log(111)
     }
 
     onStageClick(e) {

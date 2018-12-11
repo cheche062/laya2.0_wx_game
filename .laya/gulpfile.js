@@ -15,7 +15,7 @@ gulp.task("default", function () {
 	return browserify({
 		basedir: workSpaceDir,
 		//是否开启调试，开启后会生成jsmap，方便调试es6源码，但会影响编译速度
-		debug: false,
+		debug: true,
 		entries: ['src/Main.js'],
 		cache: {},
 		packageCache: {}

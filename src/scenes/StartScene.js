@@ -12,19 +12,7 @@ export default class StartScene extends Laya.Scene {
     }
 
     onEnable() {
-        this._runningBall = this.getComponent(RunningBall);
-       
-    }
+        // this._runningBall = this.getComponent(RunningBall);
 
-    showLog() {
-        console.log(6666)
-        //让持续盒子旋转
-        this.btn_start.rotation++;
     }
-
-    onUpdate() {
-        console.log(111)
-    }
-
-  
 }
