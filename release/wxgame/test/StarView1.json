@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":100,"height":100},"compId":2,"child":[{"type":"Sprite","props":{"y":18,"x":18,"texture":"test/p1.png","name":"dom_star"},"compId":3},{"type":"Script","props":{"num":-2,"runtime":"script/Star.js"},"compId":5}],"loadList":["test/p1.png"],"loadList3D":[]}
