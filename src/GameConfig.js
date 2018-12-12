@@ -2,6 +2,7 @@
 import StartScene from "./scenes/StartScene"
 import RunningBall from "./scenes/RunningBall"
 import Angle from "./script/Angle"
+import People from "./script/People"
 import Star from "./script/Star"
 import GameUI from "./script/GameUI"
 import GameControl from "./script/GameControl"
@@ -15,6 +16,7 @@ export default class GameConfig {
 		reg("scenes/StartScene.js",StartScene);
 		reg("scenes/RunningBall.js",RunningBall);
 		reg("script/Angle.js",Angle);
+		reg("script/People.js",People);
 		reg("script/Star.js",Star);
 		reg("script/GameUI.js",GameUI);
 		reg("script/GameControl.js",GameControl);
