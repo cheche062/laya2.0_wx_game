@@ -13,6 +13,6 @@ export default class StartScene extends Laya.Scene {
 
     onEnable() {
         // this._runningBall = this.getComponent(RunningBall);
-
+        console.log(99988800)
     }
 }

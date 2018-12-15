@@ -11,7 +11,7 @@ export default class People extends Laya.Script {
     addText() {
         this.num++;
         this.owner.getChildByName("dom_text").index = String(this.num % 10);
-        console.log("click");
+        console.log("click666666");
     }
 
 }
