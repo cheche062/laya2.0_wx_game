@@ -21,7 +21,7 @@ gulp.task("default", function () {
 		packageCache: {}
 	})
 		//使用babel转换es6代码
-		.transform(ideModuleDir + "babelify", { presets: [es2015] })
+		// .transform(ideModuleDir + "babelify", { presets: [es2015] })
 		.bundle()
 		//使用source把输出文件命名为bundle.js
 		.pipe(source('bundle.js'))
